@@ -20,8 +20,6 @@
     self.window.backgroundColor = [UIColor whiteColor];
     CustomTabBarController * customTabBarController = [CustomTabBarController new];
     self.window.rootViewController = customTabBarController;
-    
-    //测试一次提交 然后撤回 
     [self.window makeKeyAndVisible];
     return YES;
 }
