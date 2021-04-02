@@ -21,7 +21,6 @@
     CustomTabBarController * customTabBarController = [CustomTabBarController new];
     self.window.rootViewController = customTabBarController;
     [self.window makeKeyAndVisible];
-    //测试撤回push 
     return YES;
 }
 
